@@ -1,0 +1,24 @@
+index:
+  path: /
+  controller: App\Controller\RestController::indexAction
+  methods: GET
+
+generate:
+  path: /generate-products
+  controller: App\Controller\RestController::generateProductsAction
+  methods: GET
+
+product-list:
+  path: /products
+  controller: App\Controller\RestController::getProductsAction
+  methods: GET
+
+create-order:
+  path: /order/create
+  controller: App\Controller\RestController::createOrderAction
+  methods: POST
+
+pay-order:
+  path: /order/pay
+  controller: App\Controller\RestController::payOrderAction
+  methods: POST
