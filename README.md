@@ -14,6 +14,8 @@ edit .env
 
 `bin/console doctrine:migrations:migrate`
 
+## usage in PHPStorm http scratch
+
 ```
 GET http://symfony.local/
 
