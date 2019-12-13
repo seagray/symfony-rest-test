@@ -1,6 +1,13 @@
 # symfony-rest-test
-just try symfony
 
+## install
+`git clone`
+`composer install`
+create database
+edit .env
+`DATABASE_URL=mysql://username:password@host:3306/database?serverVersion=5.7&charset=utf8`
+
+`bin/console doctrine:migrations:migrate`
 
 ```
 GET http://symfony.local/
